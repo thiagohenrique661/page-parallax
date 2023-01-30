@@ -1,0 +1,85 @@
+
+body, html{
+	
+	font-family: arial, helvetica, "trebuchet MS", sans-serif;
+	margin: 0;
+	color: #fff;
+	height: 100%;
+	font-size: 1em;
+	min-width: 100%;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6{
+	position: relative;
+	height: 100%;
+	filter: brightness(90%);
+	background: no-repeat;
+	background: cover;
+	background-position: center;
+	background-attachment: fixed;
+} 
+
+.caixa1{
+	background-image: url(imagens/1.jpg);
+}
+
+.caixa2{
+	background-image: url(imagens/2.jpg);
+}
+
+.caixa3{
+	background-image: url(imagens/3.jpg);
+}
+
+.caixa4{
+	background-image: url(imagens/4.jpg);
+}
+
+.caixa5{
+	background-image: url(imagens/5.jpg);
+}
+
+.caixa6{
+	background-image: url(imagens/6.jpg);
+}
+
+.conteudo{
+	background-color: #0E061A;
+	padding: 3.1em 5em;
+	text-align: justify;
+	color: #FFF5FF;
+}
+
+span.titulo{
+	font-size: 3em;
+	font-weight: bold;
+	background-color: #111;
+	color: #E0E9FF;
+	opacity: 0.8;
+	letter-spacing: 0.3em;
+	padding: 1.1em;
+	
+}
+
+.conteudo-titulo{
+position: absolute;
+left: 0;
+top: 45%;
+width: 100%;
+text-align: center;
+}
+
+h2{
+	text-transform: uppercase;
+	color: #E8E6FC;
+	text-align: center;
+	letter-spacing: 0.1em;
+	margin-top: -1em;
+}
+
+p{
+	margin-bottom: 1em;
+	font-size: 1.1em;
+
+
+}
